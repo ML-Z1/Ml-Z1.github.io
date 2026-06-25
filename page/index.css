@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+#inhalt {
+    width: fit-content;
+    padding: 10px; padding-top: 0;
+
+    margin: auto;
+}
