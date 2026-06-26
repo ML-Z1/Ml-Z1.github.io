@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: no-repeat linear-gradient(5deg , white, lightgray);
+    background: no-repeat linear-gradient(5deg , white, rgb(210, 255, 255));
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -17,12 +17,12 @@ main {
 }
 article {
     width: fit-content;
-    border: 5px ridge black;
+    border: 5px solid rgb(78, 29, 25);
     border-radius: 20px;
-    background-color: lightgray;
+    background-color: rgb(231, 184, 170);
 }
 header {
-    background-color: grey;
+    background-color: rgb(194, 98, 81);
     border-radius: 14px 14px 0px 0px;
 }
 h1 {
@@ -44,13 +44,14 @@ button {
     border: 2.5px outset;
 }
 button:hover {
-    background-color: grey;
-    border: 2.5px inset grey;
+    background-color: rgb(235, 230, 229);
+    border: 2.5px inset rgb(235, 230, 229);
+    cursor: pointer;
 }
 figure {
     margin: 24px 35px 16px;
 }
 img {
-    border: 2.5px solid grey;
+    border: 2.5px solid rgb(194, 98, 81);
     border-radius: 5px;
 }
