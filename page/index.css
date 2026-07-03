@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: no-repeat linear-gradient(5deg , white, rgb(210, 255, 255));
+    background: no-repeat linear-gradient(5deg , white, rgb(170, 221, 228));
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -29,12 +29,14 @@ header {
 section {
     padding: 0px 25px 25px;
 }
-figure {
-    margin: 24px 35px 16px;
+figure, iframe {
+    margin: 24px 35px 15px;
 }
-img {
+img, iframe {
     border: 2.5px solid rgb(194, 98, 81);
     border-radius: 15px;
+}
+img {
     opacity: 82%;
 }
 button,button:hover,h1,p {

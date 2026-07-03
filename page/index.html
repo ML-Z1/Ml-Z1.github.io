@@ -13,13 +13,22 @@
                 <h1>Ritterspiel</h1>
             </header>
             <section>
-                <figure>
-                    <img src="Spiel_Screenshot.png" alt="Spiel Screenshot mit Ritter, Münzen und Gegner." width="320" height="240">
-                </figure>
-                <p>Kurzes Platformer, sammle Münzen.</p>
-                <button type="button" onclick="document.location='/Spiel/spiel.html'">Start</button>
+                <iframe id="spiel"
+                hidden
+                title="Spiel" src=""
+                width="640" height="360"></iframe>
+                <div id="artikel">
+                    <figure>
+                        <img src="Spiel_Screenshot.png" alt="Spiel Screenshot mit Ritter, Münzen und Gegner." width="320" height="240">
+                    </figure>
+                    <p>Kurzes Platformer, sammle Münzen.</p>
+                </div>
+
+                <button id="gameButton">Start</button>
             </section>
         </article>
     </main>
+    <script src="index.js"></script>
+    <noscript>Javascript wird von deinen Browser nicht unterstützt.</noscript>
 </body>
 </html>
