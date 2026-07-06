@@ -1,7 +1,7 @@
 const btn=document.getElementById("gameButton");
 const spiel=document.getElementById("spiel");
 const info=document.getElementById("artikel");
-let isGameOpen=false
+let isGameOpen=false;
 
 function changeGameState(){
     if(isGameOpen==false) {
@@ -12,7 +12,7 @@ function changeGameState(){
         info.hidden=true;
     } else {
         isGameOpen=false;
-        btn.innerHTML="Start"
+        btn.innerHTML="Start";
         spiel.hidden=true;
         spiel.src="";
         info.hidden=false;
